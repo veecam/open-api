@@ -594,7 +594,7 @@ export class Generator {
 
     const runtimeImport = Array.from(this.runtimeImportNames).join(', ');
     const banner = `
-${runtimeImport ? `import { ${runtimeImport} } from '@vvTools/open-api'` : ''}
+${runtimeImport ? `import { ${runtimeImport} } from '@vvedo/openapi-ts'` : ''}
 ${this.opts.importRequestStatement}
 `;
     const sourceFile = ts.createSourceFile('placeholder.ts', banner, ts.ScriptTarget.ESNext, true, ts.ScriptKind.TS);

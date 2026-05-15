@@ -1,5 +1,5 @@
 {
-  "name": "@vvTools/open-api",
+  "name": "@vvedo/openapi-ts",
   "version": "0.1.13-beta.4",
   "description": "OpenAPI to TypeScript API generator",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "module": "dist/esm/index.mjs",
   "types": "types/index.d.ts",
   "bin": {
-    "genapi": "bin/genapi.js"
+    "openapi-ts": "bin/openapi-ts.js"
   },
   "files": [
     "bin",

@@ -916,7 +916,7 @@ var _Generator = class _Generator {
       }
       const runtimeImport = Array.from(this.runtimeImportNames).join(", ");
       const banner = `
-${runtimeImport ? `import { ${runtimeImport} } from '@vvTools/open-api'` : ""}
+${runtimeImport ? `import { ${runtimeImport} } from '@vvedo/openapi-ts'` : ""}
 ${this.opts.importRequestStatement}
 `;
       const sourceFile = import_typescript2.default.createSourceFile("placeholder.ts", banner, import_typescript2.default.ScriptTarget.ESNext, true, import_typescript2.default.ScriptKind.TS);
