@@ -1,0 +1,42 @@
+{
+  "name": "@vvTools/open-api",
+  "version": "0.1.13-beta.4",
+  "description": "OpenAPI to TypeScript API generator",
+  "license": "MIT",
+  "main": "dist/cli-exports/index.js",
+  "module": "dist/esm/index.mjs",
+  "types": "types/index.d.ts",
+  "bin": {
+    "genapi": "bin/genapi.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@apidevtools/swagger-parser": "10.1.0",
+    "axios": "^1.7.2",
+    "bundle-require": "4.2.1",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.8",
+    "node-fetch": "2.7.0",
+    "open-api-mocker": "^2.0.0",
+    "openapi-types": "^12.0.0",
+    "pinyin-pro": "^3.20.4",
+    "query-string": "^7.1.1",
+    "semver": "^7.6.3",
+    "swagger2openapi": "^7.0.8",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.4",
+    "@types/node": "^20.12.12",
+    "@types/semver": "^7.5.8",
+    "tsup": "^8.3.0"
+  }
+}
