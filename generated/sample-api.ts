@@ -1,4 +1,4 @@
-import { DataOfResponse, createUri } from '@vvTools/open-api';
+import { DataOfResponse, createUri } from '@vvedo/openapi-ts';
 import request, { ReqOpts } from './request';
 /**
  * User role

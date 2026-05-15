@@ -1,19 +1,31 @@
 {
-  "name": "@vvTools/open-api",
+  "name": "@vvedo/openapi-ts",
   "version": "0.1.13-beta.4",
   "description": "OpenAPI to TypeScript API generator",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veecam/open-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/veecam/open-api/issues"
+  },
+  "homepage": "https://github.com/veecam/open-api#readme",
   "main": "dist/cli-exports/index.js",
   "module": "dist/esm/index.mjs",
   "types": "types/index.d.ts",
   "bin": {
-    "genapi": "bin/genapi.js"
+    "openapi-ts": "bin/openapi-ts.js"
   },
   "files": [
     "bin",
     "dist",
     "types"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "tsup",
     "typecheck": "tsc --noEmit"
