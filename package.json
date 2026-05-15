@@ -1,6 +1,6 @@
 {
   "name": "@vvedo/openapi-ts",
-  "version": "0.1.13-beta.4",
+  "version": "0.1.13-beta.5",
   "description": "OpenAPI to TypeScript API generator",
   "license": "MIT",
   "repository": {
